@@ -1,0 +1,22 @@
+{
+  "rules": {
+    "no-restricted-imports": [
+      "error", 
+      {
+        "name": "next/link",
+        "message": "Please import from @/i18n/navigation",
+        "importNames": ["default"]
+      },
+      {
+        "name": "next/navigation",
+        "message": "Please import from @/i18n/navigation",
+        "importNames": [
+          "redirect",
+          "permanentRedirect",
+          "useRouter",
+          "usePathname"
+        ]
+      }
+    ]
+  }
+}

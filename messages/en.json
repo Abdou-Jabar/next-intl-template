@@ -1,0 +1,10 @@
+{
+  "HomePage": {
+    "title": "Hi, How are you",
+    "message": "Comes Here"
+  },
+  "LocaleSwitcher":{
+    "label": "CHange langage",
+    "locale": "{locale, select, fr {🇫🇷 Français} en {🇬🇧 English} other{Unknow}}"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "HomePage": {
+    "title": "Salut comment ça va ?",
+    "message": "Viens Ici"
+  },
+  "LocaleSwitcher":{
+    "label": "Changer la langue",
+    "locale": "{locale, select, fr {🇫🇷 Français} en {🇬🇧 English} other{Inconnu}}"
+  }
+}
