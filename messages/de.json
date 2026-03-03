@@ -1,0 +1,16 @@
+{
+  "HomePage": {
+    "title": "Hallo, wie geht es dir?",
+    "message": "Kommt hierher"
+  },
+  "LocaleSwitcher": {
+    "label": "Sprache ändern",
+    "locale": "{locale, select, fr {🇫🇷 Französisch} en {🇬🇧 Englisch} de {🇩🇪 Deutsch} other {Unbekannt}}"
+  },
+  "Dashboard": {
+    "welcome": "Heil Hitler"
+  },
+  "Metadata": {
+    "title": "Meine Seite"
+  }
+}

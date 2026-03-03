@@ -1,10 +1,16 @@
 {
   "HomePage": {
-    "title": "Salut comment ça va ?",
-    "message": "Viens Ici"
+    "title": "Salut, comment ça va ?",
+    "message": "Vient ici"
   },
-  "LocaleSwitcher":{
-    "label": "Changer la langue",
-    "locale": "{locale, select, fr {🇫🇷 Français} en {🇬🇧 English} other{Inconnu}}"
+  "LocaleSwitcher": {
+    "label": "Changer de langue",
+    "locale": "{locale, select, fr {🇫🇷 Français} en {🇬🇧 Anglais} de {🇩🇪 Allemand} other {Inconnu}}"
+  },
+  "Dashboard": {
+    "welcome": "Bienvenue sur votre tableau de bord"
+  },
+  "Metadata":{
+    "title": "Ma Page"
   }
 }

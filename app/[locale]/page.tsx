@@ -1,8 +1,8 @@
 import { use } from 'react';
 import { setRequestLocale } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
-import LanguageSwitcher from '@/components/LocaleSwitcher';
 import LocaleSwitcher from '@/components/LocaleSwitcher';
+import { Link } from '@/i18n/navigation';
 
 export default function HomePage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = use(params);
@@ -12,6 +12,7 @@ export default function HomePage({ params }: { params: Promise<{ locale: string 
   return <main>
     <h1>{t('title')}</h1>
     <LocaleSwitcher />
+    <Link href={"/dashboard"}>Page</Link>
   </main>
     
 }

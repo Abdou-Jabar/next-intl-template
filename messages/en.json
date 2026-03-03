@@ -1,10 +1,16 @@
 {
-  "HomePage": {
-    "title": "Hi, How are you",
-    "message": "Comes Here"
-  },
-  "LocaleSwitcher":{
-    "label": "CHange langage",
-    "locale": "{locale, select, fr {🇫🇷 Français} en {🇬🇧 English} other{Unknow}}"
-  }
+    "HomePage": {
+        "title": "Hi, How are you",
+        "message": "Comes Here"
+    },
+    "LocaleSwitcher":{
+        "label": "CHange langage",
+        "locale": "{locale, select, fr {🇫🇷 French} en {🇬🇧 English} de {🇩🇪 German} other {Unknow}}"
+    },
+    "Dashboard": {
+        "welcome": "Welcome to your Dashboard"
+    },
+    "Metadata":{
+        "title": "My Page"
+    }
 }
